@@ -1,0 +1,27 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Virtual Environments
+venv/
+pyvenv/
+env/
+
+# Ignore VS Code settings (if using DevContainer)
+.vscode/
+
+# Ignore Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Hugging Face transformers cache
+~/.cache/huggingface/
+
+# Ignore logs and temporary files
+logs/
+*.log
